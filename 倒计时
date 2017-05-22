@@ -1,0 +1,12 @@
+ setInterval(fn,1000)
+    function fn(){
+    var date=new Date().getTime();
+    var target=new Date("2018/1/1 00:00:00").getTime();
+    var juli=target-date;
+    var day=parseInt(juli/1000/60/60/24);
+    var hour=parseInt(juli/1000/60/60%24);
+    var min=parseInt(juli/1000/60%60);
+    var s=parseInt(juli/1000%60);
+    console.log(s)
+    document.getElementById('time').innerHTML='距离2018年还剩：'+day+'天'+hour+'小时'+min+'分'+s+'秒'
+    }
