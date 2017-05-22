@@ -10,3 +10,4 @@
     console.log(s)
     document.getElementById('time').innerHTML='距离2018年还剩：'+day+'天'+hour+'小时'+min+'分'+s+'秒'
     }
+阿打发点
